@@ -13,7 +13,7 @@ conda env create -f environment.yml --prefix ./.env
 conda activate ./.env
 
 ## Remove env
-# conda deactivate && conda env remove -n pygame --all
+# conda deactivate && conda env remove -n pygame
 ## Export conda env
 # conda env export > environment.yml
 # conda activate pygame
@@ -36,6 +36,9 @@ conda env config vars set TEST_VAR=value
 
 # Exporting environment.yml
 conda env export > environment.yml
+
+# Open folder in VS Code 
+code .
 
 ```
 
